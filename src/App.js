@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import HeartClickMe from './Components/Home/HeartClickMe';
 import { useEffect } from 'react';
+import UpgradeIcon from '@mui/icons-material/Upgrade';
 
 function App() {
   useEffect(() => {
@@ -55,7 +56,7 @@ function App() {
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        background: 'linear-gradient(135deg, #FFD700 0%, #FFD1DC 100%)',
+        background: '#fff',
         position: 'relative',
         overflow: 'hidden',
       }}
@@ -68,11 +69,11 @@ function App() {
         height: '100vh',
         width: '100vw',
       }}>
+        <UpgradeIcon style={{ fontSize: 64, color: '#e91e63', marginBottom: 24 }} />
         <span style={{
           fontSize: '2.5rem',
           fontWeight: 'bold',
-          color: '#e91e63',
-          textShadow: '0 2px 8px #FFD1DC',
+          color: '#222',
           fontFamily: 'Arial, sans-serif',
           marginBottom: '1rem',
         }}>
