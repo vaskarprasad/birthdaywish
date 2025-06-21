@@ -60,6 +60,26 @@ function App() {
         overflow: 'hidden',
       }}
     >
+      <div style={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        height: '100vh',
+        width: '100vw',
+      }}>
+        <span style={{
+          fontSize: '2.5rem',
+          fontWeight: 'bold',
+          color: '#e91e63',
+          textShadow: '0 2px 8px #FFD1DC',
+          fontFamily: 'Arial, sans-serif',
+          marginBottom: '1rem',
+        }}>
+          Server is upgrading.
+        </span>
+      </div>
+      {/*
       <style>{`
         @keyframes confettiDrop {
           0% {
@@ -91,6 +111,7 @@ function App() {
         }
       `}</style>
       <HeartClickMe />
+      */}
     </div>
   );
 }
