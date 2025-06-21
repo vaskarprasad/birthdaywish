@@ -56,11 +56,12 @@ function App() {
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        background: '#fff',
+        background: 'linear-gradient(135deg, #FFD700 0%, #FF69B4 100%)',
         position: 'relative',
         overflow: 'hidden',
       }}
     >
+      {/* 
       <div style={{
         display: 'flex',
         flexDirection: 'column',
@@ -80,7 +81,7 @@ function App() {
           Server is upgrading.
         </span>
       </div>
-      {/*
+      */}
       <style>{`
         @keyframes confettiDrop {
           0% {
@@ -112,7 +113,6 @@ function App() {
         }
       `}</style>
       <HeartClickMe />
-      */}
     </div>
   );
 }
